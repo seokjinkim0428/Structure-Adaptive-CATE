@@ -1,0 +1,162 @@
+[
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 0,
+    "method": "Ours",
+    "mise": 0.0071087561728602,
+    "selected_kernels": "[\"rbf_x1-4_ls1.3\", \"matern_all_nu1.5_ls2.6\", \"rbf_x1-4_ls1.3\"]",
+    "selected_ridges": "[64.0, 64.0, 64.0]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 0,
+    "method": "Plug-in",
+    "mise": 0.0074138352616218,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 0,
+    "method": "DR",
+    "mise": 0.0086505021529891,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 0,
+    "method": "Oracle DR",
+    "mise": 0.0328592808255944,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 0,
+    "method": "R",
+    "mise": 0.0114554048287472,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 1,
+    "method": "Ours",
+    "mise": 0.1801103273685568,
+    "selected_kernels": "[\"rbf_x1-4_ls1.3\", \"matern_all_nu1.5_ls2.6\", \"matern_all_nu1.5_ls2.6\"]",
+    "selected_ridges": "[8.0, 8.0, 8.0]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 1,
+    "method": "Plug-in",
+    "mise": 0.3202627403735068,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 1,
+    "method": "DR",
+    "mise": 0.1843321794767396,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 1,
+    "method": "Oracle DR",
+    "mise": 0.0436211164535006,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "original__d10_p4_n1000",
+    "replication": 1,
+    "method": "R",
+    "mise": 0.3555275377489961,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 0,
+    "method": "Ours",
+    "mise": 0.2110875078536362,
+    "selected_kernels": "[\"sobolev_unanchored_a2\", \"sobolev_unanchored_a2\", \"sobolev_unanchored_a2\"]",
+    "selected_ridges": "[64.0, 64.0, 8.0]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 0,
+    "method": "Plug-in",
+    "mise": 0.3706552534575915,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 0,
+    "method": "DR",
+    "mise": 0.3616769066987631,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 0,
+    "method": "Oracle DR",
+    "mise": 0.0207166492697583,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 0,
+    "method": "R",
+    "mise": 0.2112010353302411,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 1,
+    "method": "Ours",
+    "mise": 0.0998421803735796,
+    "selected_kernels": "[\"sobolev_unanchored_a2\", \"sobolev_unanchored_a2\", \"sobolev_unanchored_a2\"]",
+    "selected_ridges": "[64.0, 8.0, 64.0]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 1,
+    "method": "Plug-in",
+    "mise": 0.177412231518099,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 1,
+    "method": "DR",
+    "mise": 0.0535216934490212,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 1,
+    "method": "Oracle DR",
+    "mise": 0.0447064942683709,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  },
+  {
+    "condition_id": "noise__d1_p1_sigma1",
+    "replication": 1,
+    "method": "R",
+    "mise": 0.1203078820997037,
+    "selected_kernels": "[]",
+    "selected_ridges": "[]"
+  }
+]

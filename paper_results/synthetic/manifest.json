@@ -1,0 +1,3558 @@
+{
+  "code_sha256": {
+    "ucate_algorithm_common.py": "5106292fb5ee508720c1a1875107c42ff1297e400df48797c8c4d387996b6b70",
+    "ucate_synthetic.py": "5eb9b172b4935ef1b673b57f34993734566dbf4a91f9f0a285d4ce22d62ebd0e",
+    "ucate_synthetic_experiments.py": "c441d320f693c2e458ac8f9c5a9ef979e6d17fd3d71cb4b785deda080fe10d59"
+  },
+  "conditions": [
+    {
+      "condition_id": "original__d1_p1_n500",
+      "d": 1,
+      "group": "original",
+      "kappa": 0.1,
+      "kernel_recipe": "legacy",
+      "label": "d1 p1 n500",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 100,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sample-size experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "original__d1_p1_n1000",
+      "d": 1,
+      "group": "original",
+      "kappa": 0.1,
+      "kernel_recipe": "legacy",
+      "label": "d1 p1 n1000",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 100,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sample-size experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "original__d10_p10_n1000",
+      "d": 10,
+      "group": "original",
+      "kappa": 0.1,
+      "kernel_recipe": "legacy",
+      "label": "d10 p10 n1000",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 100,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sample-size experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "original__d10_p10_n2000",
+      "d": 10,
+      "group": "original",
+      "kappa": 0.1,
+      "kernel_recipe": "legacy",
+      "label": "d10 p10 n2000",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 100,
+      "n_samples": 2000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sample-size experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "original__d10_p4_n1000",
+      "d": 10,
+      "group": "original",
+      "kappa": 0.1,
+      "kernel_recipe": "legacy",
+      "label": "d10 p4 n1000",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 100,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sample-size experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "original__d10_p4_n2000",
+      "d": 10,
+      "group": "original",
+      "kappa": 0.1,
+      "kernel_recipe": "legacy",
+      "label": "d10 p4 n2000",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 100,
+      "n_samples": 2000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sample-size experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d1_p1_sigma0.25",
+      "d": 1,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d1 p1 sigma0.25",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 0.25,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d1_p1_sigma0.5",
+      "d": 1,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d1 p1 sigma0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 0.5,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d1_p1_sigma1",
+      "d": 1,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d1 p1 sigma1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d1_p1_sigma2",
+      "d": 1,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d1 p1 sigma2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 2.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d1_p1_sigma4",
+      "d": 1,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d1 p1 sigma4",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 4.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d1_p1_kappa0.02",
+      "d": 1,
+      "group": "kappa",
+      "kappa": 0.02,
+      "kernel_recipe": "median",
+      "label": "d1 p1 kappa0.02",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d1_p1_kappa0.05",
+      "d": 1,
+      "group": "kappa",
+      "kappa": 0.05,
+      "kernel_recipe": "median",
+      "label": "d1 p1 kappa0.05",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d1_p1_kappa0.1",
+      "d": 1,
+      "group": "kappa",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d1 p1 kappa0.1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d1_p1_kappa0.2",
+      "d": 1,
+      "group": "kappa",
+      "kappa": 0.2,
+      "kernel_recipe": "median",
+      "label": "d1 p1 kappa0.2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d1_p1_kappa0.3",
+      "d": 1,
+      "group": "kappa",
+      "kappa": 0.3,
+      "kernel_recipe": "median",
+      "label": "d1 p1 kappa0.3",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d1_p1_kappa0.01",
+      "d": 1,
+      "group": "overlap_extension",
+      "kappa": 0.01,
+      "kernel_recipe": "median",
+      "label": "d1 p1 kappa0.01",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d1_p1_kappa0.5",
+      "d": 1,
+      "group": "overlap_extension",
+      "kappa": 0.5,
+      "kernel_recipe": "median",
+      "label": "d1 p1 kappa0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "crossfit__d1_p1",
+      "d": 1,
+      "group": "crossfit",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d1 p1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Ours single split"
+      ],
+      "n_replications": 30,
+      "n_samples": 500,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "cyclic averaging comparison",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d10_p10_sigma0.5",
+      "d": 10,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p10 sigma0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 0.5,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d10_p10_sigma1",
+      "d": 10,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p10 sigma1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d10_p10_sigma2",
+      "d": 10,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p10 sigma2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 2.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d10_p10_kappa0.05",
+      "d": 10,
+      "group": "kappa",
+      "kappa": 0.05,
+      "kernel_recipe": "median",
+      "label": "d10 p10 kappa0.05",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d10_p10_kappa0.1",
+      "d": 10,
+      "group": "kappa",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p10 kappa0.1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d10_p10_kappa0.2",
+      "d": 10,
+      "group": "kappa",
+      "kappa": 0.2,
+      "kernel_recipe": "median",
+      "label": "d10 p10 kappa0.2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d10_p10_kappa0.01",
+      "d": 10,
+      "group": "overlap_extension",
+      "kappa": 0.01,
+      "kernel_recipe": "median",
+      "label": "d10 p10 kappa0.01",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d10_p10_kappa0.5",
+      "d": 10,
+      "group": "overlap_extension",
+      "kappa": 0.5,
+      "kernel_recipe": "median",
+      "label": "d10 p10 kappa0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "crossfit__d10_p10",
+      "d": 10,
+      "group": "crossfit",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p10",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Ours single split"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 10,
+      "provenance": "cyclic averaging comparison",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d10_p4_sigma0.5",
+      "d": 10,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p4 sigma0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 0.5,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d10_p4_sigma1",
+      "d": 10,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p4 sigma1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d10_p4_sigma2",
+      "d": 10,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p4 sigma2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 2.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d10_p4_kappa0.05",
+      "d": 10,
+      "group": "kappa",
+      "kappa": 0.05,
+      "kernel_recipe": "median",
+      "label": "d10 p4 kappa0.05",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d10_p4_kappa0.1",
+      "d": 10,
+      "group": "kappa",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p4 kappa0.1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d10_p4_kappa0.2",
+      "d": 10,
+      "group": "kappa",
+      "kappa": 0.2,
+      "kernel_recipe": "median",
+      "label": "d10 p4 kappa0.2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d10_p4_kappa0.01",
+      "d": 10,
+      "group": "overlap_extension",
+      "kappa": 0.01,
+      "kernel_recipe": "median",
+      "label": "d10 p4 kappa0.01",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d10_p4_kappa0.5",
+      "d": 10,
+      "group": "overlap_extension",
+      "kappa": 0.5,
+      "kernel_recipe": "median",
+      "label": "d10 p4 kappa0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "crossfit__d10_p4",
+      "d": 10,
+      "group": "crossfit",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d10 p4",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Ours single split"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "cyclic averaging comparison",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d20_p20_sigma0.5",
+      "d": 20,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p20 sigma0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 0.5,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d20_p20_sigma1",
+      "d": 20,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p20 sigma1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d20_p20_sigma2",
+      "d": 20,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p20 sigma2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 2.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d20_p20_kappa0.05",
+      "d": 20,
+      "group": "kappa",
+      "kappa": 0.05,
+      "kernel_recipe": "median",
+      "label": "d20 p20 kappa0.05",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d20_p20_kappa0.1",
+      "d": 20,
+      "group": "kappa",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p20 kappa0.1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d20_p20_kappa0.2",
+      "d": 20,
+      "group": "kappa",
+      "kappa": 0.2,
+      "kernel_recipe": "median",
+      "label": "d20 p20 kappa0.2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d20_p20_kappa0.01",
+      "d": 20,
+      "group": "overlap_extension",
+      "kappa": 0.01,
+      "kernel_recipe": "median",
+      "label": "d20 p20 kappa0.01",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d20_p20_kappa0.5",
+      "d": 20,
+      "group": "overlap_extension",
+      "kappa": 0.5,
+      "kernel_recipe": "median",
+      "label": "d20 p20 kappa0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "crossfit__d20_p20",
+      "d": 20,
+      "group": "crossfit",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p20",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Ours single split"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 20,
+      "provenance": "cyclic averaging comparison",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d20_p4_sigma0.5",
+      "d": 20,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p4 sigma0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 0.5,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d20_p4_sigma1",
+      "d": 20,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p4 sigma1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "noise__d20_p4_sigma2",
+      "d": 20,
+      "group": "noise",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p4 sigma2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 2.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d20_p4_kappa0.05",
+      "d": 20,
+      "group": "kappa",
+      "kappa": 0.05,
+      "kernel_recipe": "median",
+      "label": "d20 p4 kappa0.05",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d20_p4_kappa0.1",
+      "d": 20,
+      "group": "kappa",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p4 kappa0.1",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "kappa__d20_p4_kappa0.2",
+      "d": 20,
+      "group": "kappa",
+      "kappa": 0.2,
+      "kernel_recipe": "median",
+      "label": "d20 p4 kappa0.2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d20_p4_kappa0.01",
+      "d": 20,
+      "group": "overlap_extension",
+      "kappa": 0.01,
+      "kernel_recipe": "median",
+      "label": "d20 p4 kappa0.01",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "overlap_extension__d20_p4_kappa0.5",
+      "d": 20,
+      "group": "overlap_extension",
+      "kappa": 0.5,
+      "kernel_recipe": "median",
+      "label": "d20 p4 kappa0.5",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "overlap sweep",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "crossfit__d20_p4",
+      "d": 20,
+      "group": "crossfit",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "d20 p4",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Ours single split"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "cyclic averaging comparison",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "representation__correct",
+      "d": 20,
+      "group": "representation",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "correct",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "representation__correct_plus_wrong",
+      "d": 20,
+      "group": "representation",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "correct plus wrong",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4",
+        "x5-8"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "representation__wrong_only",
+      "d": 20,
+      "group": "representation",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "wrong only",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 4,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "x5-8"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "nuisance__h1_h2",
+      "d": 1,
+      "group": "nuisance",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "H1 H2",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 1,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 2,
+      "xi": 0.01
+    },
+    {
+      "condition_id": "nuisance__h2_h3",
+      "d": 1,
+      "group": "nuisance",
+      "kappa": 0.1,
+      "kernel_recipe": "median",
+      "label": "H2 H3",
+      "lambda_grid": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0
+      ],
+      "methods": [
+        "Ours",
+        "Plug-in",
+        "DR",
+        "Oracle DR",
+        "R"
+      ],
+      "n_replications": 30,
+      "n_samples": 1000,
+      "n_test": 3000,
+      "noise_std": 1.0,
+      "nuisance_order": 2,
+      "p": 1,
+      "provenance": "sensitivity experiment",
+      "subsets": [
+        "all",
+        "x1-4"
+      ],
+      "target_order": 3,
+      "xi": 0.01
+    }
+  ],
+  "kernel_settings": {
+    "crossfit__d10_p10": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "crossfit__d10_p4": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "crossfit__d1_p1": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "crossfit__d20_p20": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "crossfit__d20_p4": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "kappa__d10_p10_kappa0.05": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "kappa__d10_p10_kappa0.1": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "kappa__d10_p10_kappa0.2": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "kappa__d10_p4_kappa0.05": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "kappa__d10_p4_kappa0.1": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "kappa__d10_p4_kappa0.2": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "kappa__d1_p1_kappa0.02": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "kappa__d1_p1_kappa0.05": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "kappa__d1_p1_kappa0.1": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "kappa__d1_p1_kappa0.2": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "kappa__d1_p1_kappa0.3": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "kappa__d20_p20_kappa0.05": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "kappa__d20_p20_kappa0.1": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "kappa__d20_p20_kappa0.2": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "kappa__d20_p4_kappa0.05": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "kappa__d20_p4_kappa0.1": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "kappa__d20_p4_kappa0.2": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "noise__d10_p10_sigma0.5": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "noise__d10_p10_sigma1": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "noise__d10_p10_sigma2": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "noise__d10_p4_sigma0.5": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "noise__d10_p4_sigma1": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "noise__d10_p4_sigma2": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "noise__d1_p1_sigma0.25": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "noise__d1_p1_sigma0.5": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "noise__d1_p1_sigma1": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "noise__d1_p1_sigma2": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "noise__d1_p1_sigma4": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "noise__d20_p20_sigma0.5": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "noise__d20_p20_sigma1": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "noise__d20_p20_sigma2": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "noise__d20_p4_sigma0.5": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "noise__d20_p4_sigma1": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "noise__d20_p4_sigma2": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "nuisance__h1_h2": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "nuisance__h2_h3": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a3"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "original__d10_p10_n1000": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6",
+        "matern_all_nu2.5_ls2.4",
+        "rbf_all_ls2.1",
+        "matern_x1-4_nu1.5_ls1.6",
+        "matern_x1-4_nu2.5_ls1.5",
+        "rbf_x1-4_ls1.3"
+      ],
+      "nuisance_length": 2.6,
+      "target_lengths": {
+        "('all', 'rbf')": 2.1,
+        "('all', 1.5)": 2.6,
+        "('all', 2.5)": 2.4,
+        "('x1-4', 'rbf')": 1.3,
+        "('x1-4', 1.5)": 1.6,
+        "('x1-4', 2.5)": 1.5
+      }
+    },
+    "original__d10_p10_n2000": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6",
+        "matern_all_nu2.5_ls2.4",
+        "rbf_all_ls2.1",
+        "matern_x1-4_nu1.5_ls1.6",
+        "matern_x1-4_nu2.5_ls1.5",
+        "rbf_x1-4_ls1.3"
+      ],
+      "nuisance_length": 2.6,
+      "target_lengths": {
+        "('all', 'rbf')": 2.1,
+        "('all', 1.5)": 2.6,
+        "('all', 2.5)": 2.4,
+        "('x1-4', 'rbf')": 1.3,
+        "('x1-4', 1.5)": 1.6,
+        "('x1-4', 2.5)": 1.5
+      }
+    },
+    "original__d10_p4_n1000": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6",
+        "matern_all_nu2.5_ls2.4",
+        "rbf_all_ls2.1",
+        "matern_x1-4_nu1.5_ls1.6",
+        "matern_x1-4_nu2.5_ls1.5",
+        "rbf_x1-4_ls1.3"
+      ],
+      "nuisance_length": 2.6,
+      "target_lengths": {
+        "('all', 'rbf')": 2.1,
+        "('all', 1.5)": 2.6,
+        "('all', 2.5)": 2.4,
+        "('x1-4', 'rbf')": 1.3,
+        "('x1-4', 1.5)": 1.6,
+        "('x1-4', 2.5)": 1.5
+      }
+    },
+    "original__d10_p4_n2000": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6",
+        "matern_all_nu2.5_ls2.4",
+        "rbf_all_ls2.1",
+        "matern_x1-4_nu1.5_ls1.6",
+        "matern_x1-4_nu2.5_ls1.5",
+        "rbf_x1-4_ls1.3"
+      ],
+      "nuisance_length": 2.6,
+      "target_lengths": {
+        "('all', 'rbf')": 2.1,
+        "('all', 1.5)": 2.6,
+        "('all', 2.5)": 2.4,
+        "('x1-4', 'rbf')": 1.3,
+        "('x1-4', 1.5)": 1.6,
+        "('x1-4', 2.5)": 1.5
+      }
+    },
+    "original__d1_p1_n1000": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "original__d1_p1_n500": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "overlap_extension__d10_p10_kappa0.01": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "overlap_extension__d10_p10_kappa0.5": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "overlap_extension__d10_p4_kappa0.01": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "overlap_extension__d10_p4_kappa0.5": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls2.6222",
+        "matern_all_nu2.5_ls2.4382",
+        "rbf_all_ls2.158",
+        "matern_x1-4_nu1.5_ls1.6211",
+        "matern_x1-4_nu2.5_ls1.5073",
+        "rbf_x1-4_ls1.3342"
+      ],
+      "nuisance_length": 2.6222,
+      "target_lengths": {
+        "('all', 'rbf')": 2.158,
+        "('all', 1.5)": 2.6222,
+        "('all', 2.5)": 2.4382,
+        "('x1-4', 'rbf')": 1.3342,
+        "('x1-4', 1.5)": 1.6211,
+        "('x1-4', 2.5)": 1.5073,
+        "('x5-8', 'rbf')": 1.3212,
+        "('x5-8', 1.5)": 1.6053,
+        "('x5-8', 2.5)": 1.4927
+      }
+    },
+    "overlap_extension__d1_p1_kappa0.01": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "overlap_extension__d1_p1_kappa0.5": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "sobolev_unanchored_a2"
+      ],
+      "nuisance_length": 1.0,
+      "target_lengths": 1.0
+    },
+    "overlap_extension__d20_p20_kappa0.01": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "overlap_extension__d20_p20_kappa0.5": {
+      "baseline_target_support": "all",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "overlap_extension__d20_p4_kappa0.01": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "overlap_extension__d20_p4_kappa0.5": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "representation__correct": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "representation__correct_plus_wrong": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_all_nu1.5_ls3.7346",
+        "matern_all_nu2.5_ls3.4725",
+        "rbf_all_ls3.0735",
+        "matern_x1-4_nu1.5_ls1.6118",
+        "matern_x1-4_nu2.5_ls1.4987",
+        "rbf_x1-4_ls1.3265",
+        "matern_x5-8_nu1.5_ls1.623",
+        "matern_x5-8_nu2.5_ls1.5091",
+        "rbf_x5-8_ls1.3357"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    },
+    "representation__wrong_only": {
+      "baseline_target_support": "x1:4",
+      "candidate_names": [
+        "matern_x5-8_nu1.5_ls1.623",
+        "matern_x5-8_nu2.5_ls1.5091",
+        "rbf_x5-8_ls1.3357"
+      ],
+      "nuisance_length": 3.7346,
+      "target_lengths": {
+        "('all', 'rbf')": 3.0735,
+        "('all', 1.5)": 3.7346,
+        "('all', 2.5)": 3.4725,
+        "('x1-4', 'rbf')": 1.3265,
+        "('x1-4', 1.5)": 1.6118,
+        "('x1-4', 2.5)": 1.4987,
+        "('x5-8', 'rbf')": 1.3357,
+        "('x5-8', 1.5)": 1.623,
+        "('x5-8', 2.5)": 1.5091
+      }
+    }
+  },
+  "metric": "mean squared CATE error over one fixed independent uniform test sample",
+  "numerical_threadpools": [
+    {
+      "architecture": "neoversen1",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "version": "0.3.27"
+    },
+    {
+      "architecture": null,
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "version": null
+    }
+  ],
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "profile": "full",
+  "python": "3.9.6",
+  "regularization": "raw Gram diagonal xi=c; normalized nuisance lambda=c/n_fit",
+  "reuse_validation": "Unchanged estimator hashes and identical DGP, kernels, grids, sample sizes and random seeds; only method coverage is extended.",
+  "schema_version": 1,
+  "se": "sample standard deviation across replications / sqrt(n_eff); undefined for n_eff<2",
+  "seeds": {
+    "base": 100,
+    "length": 42,
+    "stride": 10,
+    "test": 10099
+  },
+  "source_runs": [
+    {
+      "manifest_sha256": "3136f70eea5d6950a1f68d6d9b422d452e8077ad9399bc05ac53cd0b176c7cae",
+      "path": "results/camera_ready/synthetic/full/192a6772bd2f1bc9",
+      "replications_sha256": "e622597e68bc5cee2bfc81683e78bd74a53558a4f45b0a29df3d2292a71bef4a"
+    },
+    {
+      "manifest_sha256": "d73f985edf914aeff525caa6a951c33410a70c5f3523bb22a24f76305bbacd38",
+      "path": "results/camera_ready/synthetic_all_baselines/supplement/full/0e8fdff5360ac32b",
+      "replications_sha256": "c98e3905126fabc759b28d6984572ffee35f32961dd01b0b1ba370e172db7982"
+    }
+  ],
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.13.1"
+  },
+  "packaging_note": "Method labels normalized to Ours; numerical scores unchanged. Source hashes refer to the original source layout."
+}
